@@ -1,0 +1,316 @@
+/* --------------------------------------------
+AUTHOR              : Doug Rasmussen
+WEBSITE             : http://www.salguodcreative.com/
+LAST DATE MODIFIED  : March 22, 2012
+ ---------------------------------------------- */
+ 
+/* --------------------------------------------
+   HTML ELEMENTS
+---------------------------------------------- */
+/* Top Elements */
+* { margin: 0; padding: 0; outline: 0 }
+
+body {
+	background:#c7d435;
+	color: #c7d435; 
+	text-align: center;
+	margin: 10px 0px 0px 0px;
+}
+a, a:visited {	
+	color: #6e2712;
+	background: inherit;
+	text-decoration: none;	
+}
+a:hover {
+	color: #6a5342;
+	background: inherit;
+	text-decoration: none;
+}
+
+/* headers */
+h1, h2, h3 {
+	font: Georgia, "Times New Roman", Times, serif;	
+}
+h1 {
+	font-size:	20px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	color: #762123;
+}
+h2 {
+	font-size:	15px;
+	font-weight: bold;
+	font-style: italic;
+	color: #762123;
+	letter-spacing: 1px;
+}
+h3 {
+	font-size:	14px;
+	font-weight: normal;
+	color: #000000;
+	letter-spacing: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+h4 {
+	font-size:	34px;
+	font-weight: bold;
+	color: #6a5342;
+	letter-spacing: 0px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/********************************************
+   LAYOUT
+********************************************/ 
+
+#wrap {
+	position: relative;
+	width: 960px;
+	margin: 30px auto 0 auto;
+	text-align: left;
+	border: 0px solid #FFFFFF;
+}
+#content-wrap {
+	position: relative;
+	float: left;	
+	width: 940px;
+	display: inline;
+	margin: 5px 0px 0px 0px;
+	border:	10px;
+	background: #FFF;
+}
+#Logo {
+	position:absolute;
+	width: 500px;
+	height:164px;
+	visibility: visible;
+	margin: 0px 0px 0px 100px;
+}
+#main {
+	float: right;
+	width: 588px;
+	padding: 0; 
+	margin: 0px 0px 0 0px;
+	display: inline;
+}
+
+#info {
+	float: right;
+	width: 558px;
+	padding: 0; 
+	margin: 0px 15px 0px 15px;
+	display: inline;
+	background-color: #FFF;
+}
+
+#calloutbox {
+	float: right;
+	width: 168px;
+	height: 150px;
+	padding: 0; 
+	margin: 15px 10px 0px 10px;
+	display: inline;
+	text-align: center;
+}
+
+#address {
+	position:absolute;
+	width: 770px;
+	height: 20px;
+	left: 190px;
+	top: 492px;
+	border-top: 1px solid #22205f;
+	text-align: right;
+	font: bold 12px/20px Georgia, "Times New Roman", Times, serif;
+}
+
+/* Navigation */
+#nav {
+	position:absolute;
+	clear: both;	
+	width: 200px;		
+	height: 200px;
+	margin: 45px 0px 45px 500px;
+	
+	background: url(nav.jpg) repeat-x;
+}
+#nav ul {
+	float: left;
+	list-style: none;
+	background: url(nav.jpg) repeat-x;	
+	width: 760px;		
+	height: 40px;
+	text-transform: uppercase;
+	margin: 0px 0px 0px 200px;
+	padding: 0;	
+	display: inline;
+	text-align: center;
+}
+#nav ul li {
+	width: 188px;
+	display: inline;
+	text-align: center;
+	margin: 0; padding: 0;
+}
+#nav ul li a {
+	display: block;
+	float: left;
+	width: 188px;
+	margin: 0;
+	border-right: 1px solid #915658;
+	border-left: 1px solid #3f0709;
+	font: bold 14px/40px Georgia, "Times New Roman", Times, serif;
+	text-transform: uppercase;
+	text-decoration: none;	
+	letter-spacing: 1px;
+	color: #fff;
+	text-align: center;
+}
+#nav ul li a:hover {
+	background: url(nav-hover.jpg) repeat-x;
+	text-align: center;	
+	color: #000018;
+} 
+#nav ul li a:active {
+	background: url(nav-hover.jpg) repeat-x;
+	text-align: center;
+	color: #000018;	
+}
+#nav ul li#current a {
+	background: url(nav-current.jpg) repeat-x;
+	text-align: center;
+	color: #000018;
+}.afa {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+#menu {
+	position: relative;
+	width: 315px;
+	height: inherit;
+	margin: 0px 0px 0px 0px;
+	color: #ffffff;
+}
+
+#menu ul {
+	margin: 0;
+	height: inherit;
+	padding: 15px 0px 0px 15px;
+	list-style: none;
+	line-height: 24px;
+}
+
+#menu li {
+	display: block;
+	height: inherit;
+	padding: 2px 0px 0px 0px;
+}
+
+#menu a {
+	display: block;
+	height: 30px;
+	background: url(menu_background.png);
+	letter-spacing: 0px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-transform:uppercase;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 0px 0px 0px;
+}
+
+#menu a:hover {
+	background: url(http://www.pinecliffwoodworks.com/Images/menu_background_ro.png);
+	height: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+}
+
+#menu li#current a {
+	background: url(http://www.pinecliffwoodworks.com/Images/menu_background_ro.png);
+	height: 30px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #000000;
+	text-align: center;
+}
+/* Sidebar */
+
+#sidebar {
+	float: left;
+	width: 342px;
+	padding: 0; 
+	margin: 0px 0px 0 0px;
+    display: inline;
+}
+#birdarea {
+	position: relative;
+	width: 300px;
+	height: inherit;
+	padding: 15px 0px 0px 15px;
+}
+#footer-wrap {
+	float: left;
+	clear: both;
+	width: 960px;
+	height: 30px;
+	margin: 15px 0px 0 0px;
+	text-align: center;
+	padding: 0px 0;	
+	font: 11px/30px Georgia, "Times New Roman", Times, serif;	
+	color: #ffffff;
+	background: url(footer_back.jpg) repeat-x;
+}
+#footer-wrap  a {
+	color: #beb28f;
+    text-decoration: none;
+}
+#sound {
+	float: right;
+	clear: both;
+	width: 30px;
+	height: 30px;
+	margin: 0px 0px 0 0px;
+	padding: 0px 0;	
+	
+}
+<style type="text/css">
+
+.thumbnail{
+position: relative;
+z-index: 0;
+}
+
+.thumbnail:hover{
+background-color: transparent;
+z-index: 50;
+}
+
+.thumbnail span{ /*CSS for enlarged image*/
+position: absolute;
+background-color: lightyellow;
+padding: 5px;
+left: -1000px;
+border: 1px dashed gray;
+visibility: hidden;
+color: black;
+text-decoration: none;
+}
+
+.thumbnail span img{ /*CSS for enlarged image*/
+border-width: 0;
+padding: 2px;
+}
+
+.thumbnail:hover span{ /*CSS for enlarged image on hover*/
+visibility: visible;
+top: 20px;
+left: 342px; /*position where enlarged image should offset horizontally */
+
+}
+
+</style>
